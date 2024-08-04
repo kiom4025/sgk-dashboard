@@ -1,0 +1,56 @@
+[
+    {
+      "On-Time Delivery Analysis": "Cell 1",
+      "Total Jobs": 115,
+      "On Time": 115,
+      "1 day late": 0,
+      "2 days late": 0,
+      "3 days late": 0,
+      "4 + days late": 11
+    },
+    {
+      "On-Time Delivery Analysis": "Cell 2",
+      "Total Jobs": 237,
+      "On Time": 230,
+      "1 day late": 5,
+      "2 days late": 0,
+      "3 days late": 2,
+      "4 + days late": 0
+    },
+    {
+      "On-Time Delivery Analysis": "Cell 3",
+      "Total Jobs": 172,
+      "On Time": 164,
+      "1 day late": 0,
+      "2 days late": 5,
+      "3 days late": 0,
+      "4 + days late": 3
+    },
+    {
+      "On-Time Delivery Analysis": "Cell 4",
+      "Total Jobs": 229,
+      "On Time": 182,
+      "1 day late": 17,
+      "2 days late": 9,
+      "3 days late": 12,
+      "4 + days late": 9
+    },
+    {
+      "On-Time Delivery Analysis": "Cell 5",
+      "Total Jobs": 118,
+      "On Time": 115,
+      "1 day late": 3,
+      "2 days late": 0,
+      "3 days late": 0,
+      "4 + days late": 0
+    },
+    {
+      "On-Time Delivery Analysis": "Cell 6",
+      "Total Jobs": 97,
+      "On Time": 81,
+      "1 day late": 16,
+      "2 days late": 0,
+      "3 days late": 0,
+      "4 + days late": 0
+    }
+  ]
