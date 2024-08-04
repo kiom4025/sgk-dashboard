@@ -2,6 +2,7 @@ import React from 'react';
 import { Layout, theme } from 'antd';
 import { Route, Routes } from "react-router-dom";
 import Dashboard from '../Components/Pages/Dashboard';
+import PivotTable from '../Components/Pages/PivotTable';
 const { Content } = Layout;
 
 const LayoutContent = () => {
@@ -20,7 +21,7 @@ const LayoutContent = () => {
     >
       <Routes>  {/* Replaced Switch with Routes in React Router v6 */}
         <Route path="/" element={<Dashboard />} />
-        <Route path="/PivotTable" element={<>PivotTable</>} />
+        <Route path="/PivotTable" element={<PivotTable />} />
       </Routes>
     </Content>
   );

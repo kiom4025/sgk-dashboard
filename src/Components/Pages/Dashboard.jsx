@@ -7,7 +7,6 @@ import SampleData from '../Data/OnTimeDelivery.json'
 function Dashboard() {
     // console.log("Sample data structure: " + JSON.stringify(SampleData[0]));
     const [data, setdata] = useState({ data: SampleData });
-    var chartType = true;
     const changeHandler = (event) => {
         Papa.parse(event.target.files[0], {
             header: true,
