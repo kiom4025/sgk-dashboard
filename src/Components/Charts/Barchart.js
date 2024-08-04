@@ -1,10 +1,14 @@
 import React from "react";
-import { Chart as ChartJS } from "chart.js/auto";
-import { Bar } from "react-chartjs-2";
+import { Chart as ChartJS, defaults } from "chart.js/auto";
+import { Bar, Doughnut, Line, PolarArea, Radar } from "react-chartjs-2";
 
-import SourceData from '../Data/OnTimeDelivery.json'
+// import SourceData from '../Data/OnTimeDelivery.json'
+// defaults.maintainAspectRatio = false;
+// defaults.responsive=true;
 
-const Barchart = () => {
+const Barchart = (dataFromUpload) => {
+  const SourceData = dataFromUpload.data;
+  // console.log(dataFromUpload);
   const chartData = {
     labels: SourceData.map((data)=>data["On-Time Delivery Analysis"]),
     datasets: [
@@ -50,24 +54,24 @@ const Barchart = () => {
       },
       title: {
         display: true,
-        text: "Chart.js Bar Chart"
+        text: "On-Time Delivery Analysis"
       },
-      scales: {
-        x: {
-          type: "category",
-          grid: {
-            display: true
-          }
-        },
-        y: {
-          grid: {
-            display: true
-          },
-          ticks: {
-            beginAtZero: true
-          }
-        }
-      }
+      // scales: {
+      //   x: {
+      //     type: "category",
+      //     grid: {
+      //       display: true
+      //     }
+      //   },
+      //   y: {
+      //     grid: {
+      //       display: true
+      //     },
+      //     ticks: {
+      //       beginAtZero: true
+      //     }
+      //   }
+      // }
     }
   };
 
